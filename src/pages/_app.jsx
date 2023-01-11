@@ -19,7 +19,7 @@ Router.events.on('routeChangeError', onRouteChange)
 
 export default function App({ Component, pageProps }) {
   const appName = 'Snippit'
-  let router = useRouter()
+  const router = useRouter()
 
   return (
     <>
